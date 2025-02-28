@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #d0d0d0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 16px;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.active {
+    color: rgb(122, 122, 122) !important;
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    padding: 8px;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.home-container,
+.about-container {
+    text-align: center;
+    padding: 200px;
+}
+
+.home-title,
+.about-title {
+    color: #333;
+    font-size: 36px;
+}
+
+.home-text,
+.about-text {
+    color: #666;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.errorbody {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.notfound-wrapper {
+    text-align: center;
+    color: #fff;
+    animation: float 4s ease-in-out infinite;
+}
+
+.notfound-code {
+    font-size: 120px;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.notfound-title {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.notfound-text {
+    font-size: 18px;
+    margin: 10px 0 30px;
+}
+
+.notfound-button {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 18px;
+    color: #ff9a9e;
+    background: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.notfound-button:hover {
+    transform: scale(1.1);
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 30px 50px 0px 50px;
+}
+
+.card {
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-username {
+    font-size: 24px;
+    margin: 0;
+}
+.card-username a {
+    color: #333;
+}
+
+.cardDetail {
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.cardDetail:hover {
+    transform: scale(1.05);
+}
+
+.cardName {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+}
+
+.cardUsername {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.cardEmail {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+}
